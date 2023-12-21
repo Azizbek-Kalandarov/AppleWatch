@@ -1,0 +1,247 @@
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src:
+       url('./fonts/roboto-v30-latin-regular.woff2') format('woff2'),
+       url('./fonts/roboto-v30-latin-regular.woff') format('woff');
+}
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src:
+       url('./fonts/roboto-v30-latin-700.woff2') format('woff2'),
+       url('./fonts/roboto-v30-latin-700.woff') format('woff');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+}
+
+img {
+  display: block;
+}
+.container {
+  width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 20px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
+.site-head {
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.head-element-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-logo {
+  text-decoration-line: none;
+}
+.site-nav {
+  display: flex;
+  column-gap: 40px;
+}
+.unstyle-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+}
+.site-nav-list {
+  column-gap: 30px;
+}
+.list-item-link {
+  text-decoration-line: none;
+  color: #333333;
+  font-size: 15px;
+  line-height: 22.50px;
+}
+.home {
+  border-bottom: 3px solid #333333;
+}
+.more-link {
+  text-decoration-line: none;
+  color: #666666;
+  font-size: 15px;
+  line-height: 22.50px;
+  border-bottom: 1px solid #333333;
+}
+.section-hero {
+  padding-top: 91px;
+  padding-bottom: 183px;
+  border-bottom: 2px solid #ddd;
+  background-image: url("./images/applewatch.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 550px) calc(50% + 15px);
+}
+
+.site-title-wrapper {
+  width: 490px;
+}
+.site-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #000000;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.site-desc {
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-left: 40px;
+  color: #777777;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border-left: 3px solid #888;
+}
+.section-link {
+  display: block;
+  width: 260px;
+  padding: 12px 0;
+  text-align: center;
+  background-color: #c9514c;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-decoration-line: none;
+}
+.services {
+  padding: 70px 0;
+}
+.services-list {
+  column-gap: 80px;
+}
+.services-item {
+  width: 280px;
+}
+.services-item-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #222222;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+}
+.services-desc {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333333;
+  font-size: 15px;
+  line-height: 24px;
+}
+.services-mini-element {
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #ddd;
+  box-shadow: 18px 0px 0 0 #ddd, 36px 0px 0 0 #ddd;
+}
+.link-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  /* margin-left: 10px; */
+  align-items: center;
+  text-decoration-line: none;
+  color: #ea625c;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25.60px;
+}
+.links::before {
+  display: flex;
+  margin-right: 10px;
+  width: 40px;
+  height: 3px;
+  background-color: #ea625c;
+  content: "";
+}
+.offers-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.offers-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.offers-title-wrapper {
+  width: 490px;
+}
+.offers-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #000000;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.offers-desc {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-left: 3px solid #888;
+  padding-left: 40px;
+  color: #777777;
+  font-size: 16px;
+  line-height: 24px;
+}
+.site-footer {
+  padding-top: 240px;
+  padding-bottom: 239px;
+  background-image: url("./images/runners.png");
+  background-size: cover;
+  /* background-position: 100% 100%; */
+  background-repeat: no-repeat;
+}
+.site-end-info-wrapper {
+  width: 490px;
+  margin-left: auto;
+}
+.info-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.info-desc {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-left: 3px solid #fff;
+  padding-left: 40px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+}
